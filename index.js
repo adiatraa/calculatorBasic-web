@@ -51,6 +51,12 @@ function calculate() {
   isSecondNumber = false;
 }
 
+function addDecimal(){
+    if(!displayNum.textContent.includes(".")){
+        displayNum.textContent += ".";
+    }
+}
+
 function clearDisplay() {
   displayNum.textContent = "";
 }
